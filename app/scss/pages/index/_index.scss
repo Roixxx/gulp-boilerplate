@@ -1,4 +1,6 @@
-#example-page {
+@import 'blocks/header';
+
+#index-page {
   display: flex;
   align-items: center;
   text-align: center;
@@ -7,7 +9,7 @@
   color: $primary-colour;
 
   h1 {
-    font-size: 52px;
+    font-size: 32px;
     margin: 16px 0;
   }
 
@@ -15,7 +17,13 @@
     font-size: 20px;
     margin: 16px 0;
   }
-  
+
+  img {
+    width: 100%;
+    max-width: 35%;
+    margin-bottom: 16px;
+  }
+
   a {
     text-decoration: none;
     color: #2661e0;
